@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AIRINDX — Environmental Intelligence Platform
 
 AIRINDX is an offline-first environmental intelligence web application providing explainable air quality index (AQI) analysis, geospatial station exploration, pollutant speciation, historical trend analytics, meteorological dispersion insights, multi-city benchmarking, and grounded environmental Q&A.
@@ -74,3 +75,5 @@ npm run preview
 - Ground station, historical, and AI LLM inference endpoints from a live FastAPI backend are not attached in this offline-first submission (`dataType: "simulated"`).
 - Direct Sentinel-5P TROPOMI Level-2 spectral column retrieval requires backend CDSE authentication and NetCDF parsing.
 - Original untouched Stitch prototypes remain locally in `stitch_aqi_dashboard_design_system/` (`~7.50 MB`). When creating a lightweight public GitHub submission repository, exclude `stitch_aqi_dashboard_design_system/`, `node_modules/`, and `dist/` via `.gitignore` so the tracked repository remains ~0.6 MB (well below 10 MB).
+=======
+
