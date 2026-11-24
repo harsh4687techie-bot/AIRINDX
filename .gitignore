@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs & caches
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Python / Backend caches (future FastAPI integration)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs & OS artifacts
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Test coverage & local test results
+coverage/
+playwright-report/
+test-results/
+
+# Local reference backup & agent tooling (preserved locally on disk)
+stitch_aqi_dashboard_design_system/
+.agent/

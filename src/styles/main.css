@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--airindx-background);
+    color: var(--airindx-on-surface);
+    font-family: var(--font-body-md);
+  }
+
+  /* Tabular numerals for telemetry stability */
+  .font-telemetry-num-lg,
+  .font-telemetry-num-md,
+  .font-telemetry-badge,
+  .font-label-micro {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* WCAG 2.2 AA visible keyboard focus indicator */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid #237a5b;
+    outline-offset: 2px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--airindx-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d5e5dc;
+  border-radius: 9999px;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ping,
+  .animate-pulse,
+  .animate-spin,
+  .animate-bounce {
+    animation: none !important;
+  }
+}

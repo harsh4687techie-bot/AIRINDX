@@ -1,0 +1,124 @@
+/**
+ * AIRINDX Centralized Design Tokens
+ * Brand Specifications:
+ *   Primary:    #123C32
+ *   Secondary:  #237A5B
+ *   Accent:     #B9ED73
+ *   Background: #F5F7F2
+ *   Surface:    #FFFFFF
+ * Typography:
+ *   Headings:   Space Grotesk
+ *   Body:       Inter
+ *   Telemetry:  JetBrains Mono
+ */
+
+:root {
+  --airindx-primary: #123c32;
+  --airindx-primary-deep: #00261d;
+  --airindx-abyssal-pine: #10251f;
+  --airindx-secondary: #237a5b;
+  --airindx-accent: #b9ed73;
+  --airindx-background: #f5f7f2;
+  --airindx-surface: #ffffff;
+  --airindx-on-surface: #172b25;
+  --airindx-text-muted: #55655d;
+
+  --airindx-aqi-good: #b9ed73;
+  --airindx-aqi-moderate: #f2c94c;
+  --airindx-aqi-poor: #f2994a;
+  --airindx-aqi-unhealthy: #eb5757;
+  --airindx-aqi-severe: #9b51e0;
+  --airindx-aqi-hazardous: #5a1a40;
+
+  --airindx-border-subtle: rgba(18, 60, 50, 0.08);
+  --airindx-border-dark-glass: rgba(185, 237, 115, 0.15);
+}
+
+@theme {
+  /* Core Brand & Surface Tokens */
+  --color-primary: #123c32;
+  --color-primary-container: #123c32;
+  --color-primary-deep: #00261d;
+  --color-abyssal-pine: #10251f;
+  --color-secondary: #237a5b;
+  --color-accent: #b9ed73;
+  --color-pearl-bg: #f5f7f2;
+  --color-surface-white: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ebf2ed;
+  --color-surface-container: #e1ede6;
+  --color-surface-container-high: #d5e5dc;
+  --color-surface-container-highest: #d0e8de;
+  --color-surface-variant: #d0e8de;
+  --color-surface-dim: #c8dfd6;
+  --color-on-surface: #172b25;
+  --color-on-surface-variant: #3b4741;
+  --color-text-muted: #55655d;
+  --color-outline: #717975;
+  --color-outline-variant: #c0c8c4;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #7da799;
+  --color-secondary-container: #a0f4cd;
+  --color-on-secondary-container: #177253;
+  --color-secondary-fixed: #a0f4cd;
+  --color-secondary-fixed-dim: #84d7b2;
+  --color-tertiary-fixed: #bef378;
+  --color-tertiary-fixed-dim: #a3d65f;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+
+  /* AQI Severity Spectrum */
+  --color-aqi-good: #b9ed73;
+  --color-aqi-moderate: #f2c94c;
+  --color-aqi-poor: #f2994a;
+  --color-aqi-unhealthy: #eb5757;
+  --color-aqi-severe: #9b51e0;
+  --color-aqi-hazardous: #5a1a40;
+
+  /* Glass & Micro Borders */
+  --color-border-subtle: rgba(18, 60, 50, 0.08);
+  --color-border-glass: rgba(18, 60, 50, 0.08);
+  --color-border-dark-glass: rgba(185, 237, 115, 0.15);
+
+  /* Typography Families */
+  --font-display-hero: "Space Grotesk", sans-serif;
+  --font-headline-lg: "Space Grotesk", sans-serif;
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-headline-sm: "Space Grotesk", sans-serif;
+  --font-title-card: "Space Grotesk", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-telemetry-num-lg: "JetBrains Mono", monospace;
+  --font-telemetry-num-md: "JetBrains Mono", monospace;
+  --font-telemetry-badge: "JetBrains Mono", monospace;
+  --font-label-micro: "JetBrains Mono", monospace;
+
+  /* Typography Scale */
+  --text-display-hero: 5rem;
+  --text-display-hero--line-height: 5.25rem;
+  --text-headline-lg: 2.5rem;
+  --text-headline-lg--line-height: 3rem;
+  --text-headline-md: 1.75rem;
+  --text-headline-md--line-height: 2.25rem;
+  --text-headline-sm: 1.25rem;
+  --text-headline-sm--line-height: 1.75rem;
+  --text-title-card: 1rem;
+  --text-title-card--line-height: 1.5rem;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body-md: 0.9375rem;
+  --text-body-md--line-height: 1.5rem;
+  --text-body-sm: 0.8125rem;
+  --text-body-sm--line-height: 1.25rem;
+  --text-telemetry-num-lg: 3.5rem;
+  --text-telemetry-num-lg--line-height: 3.5rem;
+  --text-telemetry-num-md: 1.5rem;
+  --text-telemetry-num-md--line-height: 1.75rem;
+  --text-telemetry-badge: 0.75rem;
+  --text-telemetry-badge--line-height: 1rem;
+  --text-label-micro: 0.6875rem;
+  --text-label-micro--line-height: 0.875rem;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' ws: wss: http://localhost:* http://127.0.0.1:* https://air-quality-api.open-meteo.com; object-src 'none'; base-uri 'self'; form-action 'self';"
+    />
+    <title>AIRINDX — Environmental Intelligence Platform</title>
+    <link rel="icon" type="image/png" href="/assets/airindx-mark.png" />
+  </head>
+  <body class="font-body-md text-on-surface antialiased bg-pearl-bg min-h-screen selection:bg-aqi-good selection:text-primary">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
